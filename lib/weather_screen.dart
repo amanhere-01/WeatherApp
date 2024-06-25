@@ -101,7 +101,7 @@ class WeatherScreen extends StatelessWidget {
                   ),HourlyForecastWidget(
                     time: '19:00',
                     icon: Icons.sunny,
-                    temperature: '45',
+                    temperature: '38',
                   ),HourlyForecastWidget(
                     time: '21:00',
                     icon: Icons.nightlight,
