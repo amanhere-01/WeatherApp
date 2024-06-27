@@ -11,9 +11,9 @@ class AdditionalInformationWidget extends StatelessWidget {
     return  Column(
       children: [
         Icon(icon, size: 32,),
-        SizedBox(height: 8,),
+        const SizedBox(height: 8,),
         Text(label,),
-        SizedBox(height: 8,),
+        const SizedBox(height: 8,),
         Text(value,
           style: const TextStyle(
               fontWeight: FontWeight.bold,
